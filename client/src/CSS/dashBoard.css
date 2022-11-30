@@ -1,0 +1,112 @@
+.dashBoardHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: seagreen;
+}
+
+.dashboardlogout:hover {
+    background-color: rgb(14, 114, 14) !important;
+}
+
+.welcomeBox {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboardlogout {
+    height: 8vh !important;
+    margin-top: 2vh !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.usersList {
+    width: 30%;
+    border-right: ridge;
+    height: 88vh;
+}
+
+.chatWindow {
+    width: -webkit-fill-available;
+    background-color: rgb(240, 241, 240);
+}
+
+.chatBox {
+    width: 87%;
+}
+
+.sendButton {
+    width: 10%
+}
+
+.MuiInputBase-input {
+    height: 10% !important;
+}
+
+.MuiButton-root {
+    padding: 14px 16px !important;
+}
+
+.senderDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.sender {
+    padding-left: 1%;
+    color: black;
+    font-size: inherit;
+    width: max-content;
+}
+
+.recive {
+    color: black;
+    font-size: inherit;
+    background-color: rgb(213, 219, 213);
+    width: fit-content;
+    padding: 1%;
+    border-radius: 24%;
+}
+
+.reciveDiv {
+    text-align: -webkit-right;
+    padding-right: 1%;
+}
+
+.textField {
+    width: 79%;
+    position: fixed;
+    bottom: 0px;
+    background-color: white;
+    display: flex;
+}
+
+@media only screen and (max-width: 414px) {
+    .usersList{
+        width: min-content;
+    }
+    .textField{
+        width: 65%;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .textField{
+        width: 61%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .textField{
+        width: 61%;
+    }
+}
+@media only screen and (max-width: 330px) {
+    .textField{
+        width: 56%;
+    }
+}

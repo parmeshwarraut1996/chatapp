@@ -1,0 +1,130 @@
+.regcontainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/55ef3f13e6ceeb6e8bc467c120ffac09.jpg);
+}
+
+.regForm {
+    height: 80%;
+    width: 34%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+}
+
+h1 {
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    padding-top: 6%;
+    color: white;
+}
+
+.inputFieldreg {
+    width: -webkit-fill-available;
+    padding: 6%;
+    height: 46px;
+    color: white;
+}
+
+#btnreg {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+    top: 36px;
+    width: 100px;
+    border-radius: 25px;
+}
+
+#btnreg:hover {
+    background: -webkit-linear-gradient(bottom, #7579ff, #b224ef);
+    color: white;
+}
+
+p {
+    margin-block-start: auto;
+    font-size: small;
+    color: red;
+}
+
+.MuiFormLabel-root {
+    color: white !important;
+}
+
+.MuiInputBase-input {
+    min-width: 230px !important;
+}
+
+@media only screen and (max-width: 330px) {
+    .regForm {
+        width: 92% !important;
+        height: 90% !important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .regForm {
+        width: 85%;
+        height: 77%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .regForm {
+        width: 85%;
+        height: 73%;
+    }
+}
+
+@media only screen and (width :1024px) {
+    .regForm {
+        width: 47% !important;
+        height: 37% !important;
+    }
+}
+
+@media only screen and (min-width :670px) {
+    .regForm {
+        width: 50%;
+        height: 49%;
+    }
+}
+
+@media only screen and (min-width :410px) {
+    .regForm {
+        width: 80%;
+        height: 65%;
+    }
+}
+
+@media only screen and (min-width :760px) {
+    .regForm {
+        width: 46%;
+        height: 48%;
+    }
+}
+
+@media only screen and (min-width :785px) {
+    .regForm {
+        width: 46%;
+        height: 78%;
+    }
+}
+
+@media only screen and (width :414px) {
+    .regForm {
+        width: 70%;
+        height: 67%;
+    }
+}
+
+@media only screen and (min-width :1100px) {
+    .regForm {
+        width: 30%;
+        height: 80%;
+    }
+}
